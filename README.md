@@ -10,4 +10,4 @@ Saves location of image per page.
 
 Control transparency
 
-Can drag and drop image anywhere, on the page.
+Can drag and drop image anywhere on the page.
