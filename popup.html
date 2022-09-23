@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <h1 style="text-align: center;">
+    Image Stencil
+  </h1>
+
+  <!--<div class="utility__button__ruler">
+    <img alt="ruler icon" src="/Images/ruler.png">
+  </div>-->
+
+  <div>
+    <div class="header__container">
+      <h3 class="mr-20">Component Image</h3> 
+      <button class="on__button">Off</button>
+    </div>
+
+    <div class="image__container">
+      <img alt="component icon " class="image__desktop" src="/Images/startercomponent.png">
+      <div>
+        <div class="attribute__container">
+          <label class="att__label" for="opacity">Opacity</label>
+          <input class="desktop__opacity" type="range" name="opacity" min="0" max="100" step="1">
+        </div>
+        <div class="attribute__container">
+          <label class="att__label" for="opacity">Position X:</label>
+          <input class="x__coordinate" type="text" name="opacity" maxlength="6"><span class="pixel__unit">px</span>
+        </div>
+        <div class="attribute__container">
+          <label class="att__label" for="opacity">Position Y:</label>
+          <input class="y__coordinate" type="text" name="opacity" maxlength="6"><span class="pixel__unit">px</span>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- upload image -->
+    <div>
+      <input class="uploadImage" type="file" accept="image/*" />
+    </div>
+
+    <div class="on__button__container">
+      <span>Shortcut = ctrl M</span>
+    </div>
+
+</body>
+<footer>
+  <script src="popup.js"></script>
+</footer>
+
+</html>

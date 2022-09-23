@@ -1,0 +1,23 @@
+{
+  "name": "Image Stencil",
+  "description": "A very simple image stencil. Ctrl M to enable/disable it!",
+  "version": "0.0.0.1",
+  "manifest_version": 3,
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "css":        ["overlay.css"],
+    "js": ["overlay.js"]
+  }]
+}

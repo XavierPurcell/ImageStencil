@@ -1,0 +1,112 @@
+
+
+h1
+{
+    margin-top:30px;
+    margin-bottom:30px;
+    font-size: 30px;
+}
+
+h3
+{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size: 20px;
+}
+
+
+
+body
+{
+    max-width: 500px;
+    margin-left:30px;
+    margin-right:30px;
+    width:500px;
+}
+
+.header__container
+{
+    display:flex;
+    align-items: center;
+}
+
+.mr-20
+{
+    margin-right: 20px;
+}
+
+.on__button
+{
+    margin-top: 5px;
+    height:25px;
+    width:40px
+}
+
+
+
+.utility__button__ruler
+{
+  position:absolute;
+  top:30px;
+  left:50px;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.image__desktop
+{
+    max-width: 100%;
+}
+
+.image__container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.on__button__container
+{
+    margin-top: 20px;
+}
+
+
+
+
+.attribute__container
+{
+    display:flex;
+    justify-content: flex-start;
+    margin-bottom:10px;
+}
+
+.att__label
+{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.desktop__opacity
+{
+    width:100%;
+    margin-top:5px;
+}
+
+.y__coordinate, .x__coordinate
+{
+    width:50px;
+    margin-top: 2px;
+}
+
+
+.pixel__unit
+{
+    margin-top: 2px;
+}
+
+.uploadImage
+{
+    margin-top: 10px;
+}
+
